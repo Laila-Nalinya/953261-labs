@@ -24,4 +24,6 @@ They give me a suggestion word for go to the website. All i saw in the web is te
 ## AI-use statement
 
 _Did you use an AI tool in this lab? If yes, which one and for what (e.g., "ChatGPT to explain a Git error message"). If no, write "No AI tools used."_
-Yes, I used Gemini to explain and do "Part D · Solo task".
+Yes, I used Gemini to explain and do "Part D · Solo task". 
+
+By the way, LOVE Ajan.Toey mak mak naka <3
