@@ -19,11 +19,7 @@ npm start        # Part D — the daily report
 ## My own function (Part D)
 
 _Name of your function, what it returns, and which array methods it uses._
-export function itemsWithTag(menu, tag) {
-  return menu
-    .filter((item) => Array.isArray(item.tags) && item.tags.includes(tag))
-    .map((item) => item.name);
-}
+itemsWithTag(menu, tag), The return is the menu that has the "cold" tag. All array that i use are filter() on menu — keeps only the items whose tags array includes the given tag and map() on the filtered result — transforms each matching item into its name.
 
 ## What I learned today
 
