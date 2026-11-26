@@ -2,9 +2,9 @@
 
 | | |
 |---|---|
-| **Name** | _your full name_ |
-| **Nickname** | _your nickname_ |
-| **Student ID** | _6xxxxxxxx_ |
+| **Name** | Charunee Chailert |
+| **Nickname** | Diana |
+| **Student ID** | 692115008 |
 | **Section** | 701 |
 
 ## How to run
@@ -19,11 +19,21 @@ npm start        # Part D — the daily report
 ## My own function (Part D)
 
 _Name of your function, what it returns, and which array methods it uses._
+export function itemsWithTag(menu, tag) {
+  return menu
+    .filter((item) => Array.isArray(item.tags) && item.tags.includes(tag))
+    .map((item) => item.name);
+}
 
 ## What I learned today
 
 _Write 2–3 sentences in your own words: when would you use map, filter, find and reduce?_
+map: Transforms every element in an array into a new format.
+filter: Selects only the elements that meet a specific condition (Use with array).
+find: Searches for the very first element that meets a specific condition.
+reduce: Combines all elements into a single value based on a specified accumulator.
 
 ## AI-use statement
 
 _Did you use an AI tool in this lab? If yes, which one and for what. If no, write "No AI tools used."_
+Yes I use it to teach the logic me every task. It taught me pretty good!
